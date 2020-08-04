@@ -1,5 +1,8 @@
 {
     "name": "milkamil93/tracy",
+    "description": "Обёртка для tracy/tracy с предустановленными фичами",
+    "type": "package",
+    "license": "MIT",
     "authors": [
         {
             "name": "milkamil93",
