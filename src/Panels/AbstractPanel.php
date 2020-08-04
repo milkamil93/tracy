@@ -44,7 +44,7 @@ abstract class AbstractPanel implements IBarPanel
         return $this->render('panel');
     }
 
-    protected function hasSubscribeMethod() : bool
+    protected function hasSubscribeMethod()
     {
         return method_exists($this, 'subscribe');
     }

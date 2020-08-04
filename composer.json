@@ -9,13 +9,6 @@
             "email": "milkamil93@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "YesTracy\\YesTracyServiceProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
             "YesTracy\\": "src/"
