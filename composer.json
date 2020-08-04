@@ -1,0 +1,24 @@
+{
+    "name": "milkamil93/tracy",
+    "authors": [
+        {
+            "name": "milkamil93",
+            "email": "milkamil93@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YesTracy\\YesTracyServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "YesTracy\\": "src/"
+        }
+    },
+    "require": {
+        "tracy/tracy": "^2.7"
+    }
+}
