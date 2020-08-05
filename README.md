@@ -7,6 +7,7 @@ composer require milkamil93/tracy
 use Tracy\Debugger;
 use YesTracy\Tracy;
 
+Debugger::enable(false);
 Debugger::$showBar = true;
 Debugger::dispatch();
 Tracy::init();
